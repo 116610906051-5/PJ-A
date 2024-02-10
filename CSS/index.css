@@ -6,12 +6,16 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    display: flex;
+    background: #000000;
+}
+
+.container1 {
+        display: flex;
     justify-content: center;
     align-items: center;
     min-height: 10vh;
-    background: #000000;
 }
+
 nav {
     position: relative;
     width: 355px;
@@ -53,4 +57,56 @@ nav a:nth-child(3):hover~span {
 nav a:nth-child(4):hover~span {
     left: 250px;
     width: 105px;
+}
+
+.s1 {
+    background-color: #fff;
+}
+
+.container2 {
+    padding: 0.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.products-con {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.products-item {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.products-item:hover {
+    outline: 2px solid rgb(63, 201, 255);
+}
+
+.products-img img {
+    width: 100%;
+}
+
+.products-detail {
+    padding: 0.5rem;
+    font-size: 15px;
+}
+
+.products-button {
+    padding: 0.5rem
+}
+
+.products-button button {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(63, 201, 255);
+    border: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.products-button button:hover {
+    background-color: rgb(0, 255, 136)
 }
