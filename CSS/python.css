@@ -113,3 +113,12 @@ nav a:nth-child(4):hover~span {
 .products-button button:hover {
     background-color: rgb(0, 255, 136)
 }
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color:  rgb(0, 255, 136);
+    padding: 0 20px;
+    text-shadow: 0 0 5px #222;  
+    line-height: 80px;
+}
